@@ -1,19 +1,17 @@
 <template>
   <div id="app">
     <HelloWorld msg="Anime API"/>
-    <Itune/>
+    <Anime/>
   </div>
 </template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Itune from './components/Itune'
+import Anime from './components/Anime'
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Itune
-
+    Anime
   }
 }
 </script>
